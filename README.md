@@ -1,4 +1,2 @@
-# Mysite
-Personal site
+# HTML, CSS, JavaScript
 
-Just open mysite file to see the page

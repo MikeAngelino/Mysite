@@ -1,0 +1,109 @@
+/* CSS Specificity */
+
+body{
+    font-size: 18px;
+    font-family: 'Audiowide', cursive;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+nav.navbar{
+    font-weight: bold;
+    width: 25vw;
+    height: 100vh;
+    background: #1C4277;
+    position: fixed;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Audiowide', cursive;
+}
+
+
+nav.navbar a{
+    color: white;
+    text-decoration: none;
+    transition: .3s color ease-in;
+}
+
+nav.navbar a:hover{
+    color: #8FA3AD;
+}
+
+nav.navbar li{
+    margin-bottom: .5em;
+}
+
+nav.navbar img{
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 15px;
+}
+
+section.page{
+    background: green;
+    width: calc(100% - 25vw);
+    margin-left: 25vw;
+    min-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative
+}
+
+section.page p{
+    margin-bottom: 1em;
+}
+
+section.page ul li{
+    margin-bottom: .25em;
+}
+
+section.page ul li::before{
+    content: "+";
+    color: white;
+    margin-right: .25em;
+    background: orangered;
+    padding: 0 5px;
+    width:1em;
+    height:1em;
+    border-radius: 100%;
+}
+
+section.page h2{
+    font-size: 1.5em;
+    position: absolute;
+    top: 1em
+}
+
+section.hero{
+    background-image: linear-gradient(to bottom, rgba(34,34,34,0.45) 0%,rgba(34,34,34,0.45) 100%),url(https://wallpapercave.com/wp/wp1828955.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #979AA0;
+    background-position: center;
+    color: white;
+    font-family: 'Monoton', cursive;
+}
+
+
+section.education{
+    background: #7C9BAF;
+}
+
+section.projects{
+    background: #92B6CE;
+}
+
+section.skills{
+    background: #A1C8E2;
+}
+
+font-family: 'Roboto', sans-serif;
